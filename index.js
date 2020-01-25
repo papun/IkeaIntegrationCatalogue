@@ -26,7 +26,6 @@ app.get('/searchresults', function (req, res) {
 });
 
 app.post('/searchresults', function (req, res) {
-	console.clear();
 	var id = req.body.intnum;
 	console.log(id);
 	var url = "https://samples.openweathermap.org/data/2.5/weather?id="+ id +"&appid=b6907d289e10d714a6e88b30761fae22";
