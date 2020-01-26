@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "system-test": "repo-tools test app -- index.js",
     "test": "npm run system-test"
   },
@@ -14,7 +14,9 @@
     "@google-cloud/nodejs-repo-tools": "^3.3.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "express-session": "^1.17.0",
     "http": "0.0.0",
+    "http-errors": "^1.7.3",
     "nodemon": "^2.0.2",
     "request": "^2.88.0"
   },
