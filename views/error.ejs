@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> SearchResults</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">IKEA</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="resultshowcase">
+    <h2>Something went wrong at our end while displaying <br><%= path %></h2>
+
+  </section>
+
+
+  <footer><%- include('partials/footer') %></footer>
+</body>
+
+</html>
