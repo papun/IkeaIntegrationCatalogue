@@ -87,6 +87,13 @@ header a:hover{
   color:#ffffff;
 }
 
+#errshowcase{
+  min-height:440px;
+  background:url('../img/err.png') no-repeat 0 ;
+  text-align:center;
+  color:#ffffff;
+}
+
 
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -110,7 +117,7 @@ header a:hover{
 
 
 #resultshowcase{
-  min-height:480px;
+  min-height:400px;
   text-align:center;
   color:antiquewhite;
 }
